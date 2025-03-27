@@ -114,8 +114,8 @@ def run_inference(image_path, model_path="yolov.onnx", output_path="output.jpg")
     return output_path
 
 if __name__ == "__main__":
-    image_path = "ar.jpg"   # Input image file path
-    model_path = "yolov.onnx"  # ONNX model file path
+    image_path = "1.jpg"   # Input image file path
+    model_path = "yolo.onnx"  # ONNX model file path
 
     output_file = run_inference(image_path, model_path)
     print(f"Output file: {output_file}")
